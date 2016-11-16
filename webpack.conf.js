@@ -1,5 +1,4 @@
 const webpack = require('webpack');
-const glob = require('glob');
 
 module.exports = {
 	entry: './src/index.js',
@@ -12,14 +11,13 @@ module.exports = {
 	module: {
 		loaders: [{
 			test: /\.js$/,
-			exclude: /node_modules\/dist/,
 			loader: 'babel-loader'
 		}]
 	},
 	devServer: {
 		contentBase: './',
 		port: 8080,
-		noInfo: true,
+		noInfo: false,
 		hot: true,
 		inline: true,
 		proxy: {

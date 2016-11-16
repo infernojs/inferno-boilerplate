@@ -1,24 +1,23 @@
+// inferno module
 import Inferno from 'inferno';
-import Component from 'inferno-component';
 
-class MyApp extends Component {
-	constructor(props) {
-		super(props);
-		this.showVersion = this.showVersion.bind(this);
-	}
-	showVersion() {
-		alert(`The version is: ${ this.props.version }!`);
-	}
-	render({ version }) {
-		return (
-			<div>
-				<h1>Inferno Boilerplate</h1>
-				<p>This is an Inferno Boilerplate example using <em>Inferno { version }</em>.</p>
-				<button onClick={ this.showVersion }>Show version</button>
-			</div>
-		);
-	}
-}
+// routing modules
+import { Router, Route } from 'inferno-router';
+import createBrowserHistory from 'history/createBrowserHistory';
 
-Inferno.render(<MyApp version='1.0.0-beta5' />, document.getElementById('app'));
+// app components
+import MyApp from './MyApp';
+import VersionComponent from './VersionComponent';
+
+const browserHistory = createBrowserHistory();
+
+const routes = (
+	<Router history={ browserHistory }>
+		<Route component={ MyApp }>
+			<Route path="/" component={ VersionComponent } />
+		</Route>
+	</Router>
+);
+
+Inferno.render(routes, document.getElementById('app'));
 

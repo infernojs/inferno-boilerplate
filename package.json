@@ -1,7 +1,7 @@
 {
   "name": "inferno-boilerplate",
   "version": "0.0.1",
-  "description": "A basic boilerplate to get you started with Inferno + Cerebral + JSX",
+  "description": "A basic boilerplate to get you started with Inferno + Inferno Router + JSX",
   "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server --quiet --config webpack.conf.js --host 0.0.0.0"
@@ -26,7 +26,7 @@
     "babel-core": "^6.4.0",
     "babel-eslint": "^4.1.6",
     "babel-loader": "^6.2.1",
-    "babel-plugin-inferno": "^1.0.1-beta5",
+    "babel-plugin-inferno": "^1.2.0-beta10",
     "babel-plugin-syntax-jsx": "^6.3.13",
     "babel-plugin-syntax-object-rest-spread": "^6.3.13",
     "babel-plugin-transform-object-rest-spread": "^6.3.13",
@@ -34,10 +34,15 @@
     "babel-preset-stage-0": "^6.3.13",
     "eslint": "^1.10.3",
     "webpack": "^1.12.11",
-    "webpack-dev-server": "^1.14.1"
+    "webpack-dev-server": "^1.14.1",
+    "glob": "^7.1.1",
+    "url": "^0.11.0"
   },
   "dependencies": {
-    "inferno": "^1.0.0-beta5",
-    "inferno-component": "^1.0.0-beta5"
+    "history": "^4.4.0",
+    "inferno": "^1.0.0-beta9",
+    "inferno-component": "^1.0.0-beta9",
+    "inferno-create-element": "^1.0.0-beta9",
+    "inferno-router": "^1.0.0-beta9"
   }
 }
