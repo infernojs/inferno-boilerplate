@@ -1,6 +1,6 @@
 import Inferno from 'inferno';
 
-const version = '1.0.0-beta13';
+const version = '1.0.0-beta15';
 
 function showVersion() {
 	alert(`The version is: ${ version }!`);
