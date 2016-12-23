@@ -26,7 +26,7 @@
     "babel-core": "^6.4.0",
     "babel-eslint": "^4.1.6",
     "babel-loader": "^6.2.1",
-    "babel-plugin-inferno": "1.2.0-beta12",
+    "babel-plugin-inferno": "beta17",
     "babel-plugin-syntax-jsx": "^6.3.13",
     "babel-plugin-syntax-object-rest-spread": "^6.3.13",
     "babel-plugin-transform-object-rest-spread": "^6.3.13",
@@ -36,13 +36,14 @@
     "webpack": "^1.12.11",
     "webpack-dev-server": "^1.14.1",
     "glob": "^7.1.1",
-    "url": "^0.11.0"
+    "url": "^0.11.0",
+    "inferno-devtools": "1.0.0-beta42"
   },
   "dependencies": {
     "history": "^4.4.0",
-    "inferno": "1.0.0-beta36",
-    "inferno-component": "1.0.0-beta36",
-    "inferno-create-element": "1.0.0-beta36",
-    "inferno-router": "1.0.0-beta36"
+    "inferno": "1.0.0-beta42",
+    "inferno-component": "1.0.0-beta42",
+    "inferno-create-element": "1.0.0-beta42",
+    "inferno-router": "1.0.0-beta42"
   }
 }

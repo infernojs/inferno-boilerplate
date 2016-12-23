@@ -9,6 +9,10 @@ import createBrowserHistory from 'history/createBrowserHistory';
 import MyApp from './MyApp';
 import VersionComponent from './VersionComponent';
 
+if (module.hot) {
+    require('inferno-devtools');
+}
+
 const browserHistory = createBrowserHistory();
 
 const routes = (
@@ -20,4 +24,8 @@ const routes = (
 );
 
 Inferno.render(routes, document.getElementById('app'));
+
+if (module.hot) {
+    module.hot.accept()
+}
 
