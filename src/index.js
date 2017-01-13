@@ -1,5 +1,5 @@
 // inferno module
-import Inferno from 'inferno';
+import {render} from 'inferno';
 
 // routing modules
 import { Router, Route } from 'inferno-router';
@@ -23,7 +23,7 @@ const routes = (
 	</Router>
 );
 
-Inferno.render(routes, document.getElementById('app'));
+render(routes, document.getElementById('app'));
 
 if (module.hot) {
     module.hot.accept()
