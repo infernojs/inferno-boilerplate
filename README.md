@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a very basic boilerplate example for people wanting to get started with Inferno. This boilerplate uses `inferno@beta42`, `webpack`, `babel` and the `babel-plugin-inferno` JSX Babel plugin.
+This is a very basic boilerplate example for people wanting to get started with Inferno. This boilerplate uses `inferno`, `webpack`, `babel` and the `babel-plugin-inferno` JSX Babel plugin.
 This boilerplate shows how to use `inferno-router` in a very simple way.
 
 ## Getting started
