@@ -1,6 +1,8 @@
 # Inferno Boilerplate
 
-![Inferno-logo](https://image.ibb.co/jRzc7k/logo.png =800x)
+<p align="center">
+  <img src="https://image.ibb.co/jRzc7k/logo.png =800x" alt="Inferno Boilerplate logo" width="800" />
+</p>
 
 ## Overview
 
