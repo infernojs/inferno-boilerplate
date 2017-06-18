@@ -1,7 +1,4 @@
 {
-  // "env": {
-    // "development": {}
-  // },
   "presets": [
     ["env", {
       "targets": {
@@ -18,7 +15,6 @@
     "transform-decorators-legacy",
     "transform-class-properties",
     "babel-plugin-syntax-jsx", 
-    "glamor/babel",
     ["babel-plugin-inferno", {"imports": true}]
   ]
 }
