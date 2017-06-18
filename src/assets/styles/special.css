@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+body {
+  margin: 0;
+}
+
+.position_abs-center {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.mountains__text {
+  font-family: 'EB Garamond', serif;
+  font-size: 42px;
+  text-align: center;
+  color: white;
+}
+.mountains__link {
+  font-family: Source Sans Pro,Arial,sans-serif;
+  font-size: 16px;
+  color: rgba(255,255,255,.7);
+  top: 90%;
+}
+.mountains__image {
+  background-image: url('~assets/img/special/mountains.jpg');
+  background-size: cover;
+  min-width: 100vw;
+  min-height: 100vh;
+}

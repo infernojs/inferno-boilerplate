@@ -1,10 +1,24 @@
 {
-    "env": {
-        "development": {
-            "presets": [
-                ["es2015", {"loose": true, "modules": false}], "stage-0"
-            ]
-        }
-    },
-    "plugins": ["babel-plugin-syntax-jsx", ["babel-plugin-inferno", {"imports": true}]]
+  // "env": {
+    // "development": {}
+  // },
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": ["last 2 versions", "safari >= 7" ]
+      }
+    }],
+    ["es2015", {
+      "loose": true, "modules": false
+    }],
+    "stage-0"
+  ],
+  "plugins": [
+    "syntax-decorators",
+    "transform-decorators-legacy",
+    "transform-class-properties",
+    "babel-plugin-syntax-jsx", 
+    "glamor/babel",
+    ["babel-plugin-inferno", {"imports": true}]
+  ]
 }
