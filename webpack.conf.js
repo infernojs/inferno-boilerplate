@@ -7,7 +7,6 @@ module.exports = {
 		filename: 'bundle.js',
 		publicPath: 'http://localhost:8080/'
 	},
-	//devtool: 'source-map',
 	module: {
 		loaders: [{
 			test: /\.js$/,
