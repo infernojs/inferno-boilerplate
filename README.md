@@ -50,7 +50,7 @@ There is 2 recommended ways to style your app:
 Just include your style file (you can use SASS there, see below) and wrap it into `<style>` tag of your view. When page or layout will be changed, style will be destroyed - see `layouts/default.js` and `layouts/special.js`.
 For better scoping you can use CCS (w/ PostCSS) or SCSS nesting with [BEM](https://en.bem.info/) or other namespacing technology;
 2. **Style components with scoped CSSinJS technology.**
-You also can style your components inline with all of JavaScript power! Look at  `~components/contributor.js` for example. This component styled with [jss](https://github.com/cssinjs/jss), which seems to be [fastest](https://github.com/hellofresh/css-in-js-perf-tests) CSSinJS library. It supports nesting and style prefixing, so you will not meet problems with it. You can also use [inline PostCSS](https://github.com/lttb/postjss) and [component theming](https://github.com/nathanmarks/jss-theme-reactor) with it. But also you can try to use other libraries: `css-constructor`, `aphrodite` ans `glamor` are good.
+You also can style your components inline with all of JavaScript power! Look at `~components/contributor.js` for example. This component styled with [fela](fela.js.org), which is [fast](https://github.com/hellofresh/css-in-js-perf-tests) CSSinJS library. It has official inferno [bindings](https://github.com/rofrischmann/fela/tree/master/packages/inferno-fela) and supports nesting and style prefixing, so you should not meet problems with it. Also you can try to use other libraries: `css-constructor`, `jss` ans `glamor` are good.
 
 #### Using SCSS
 SCSS loader is allready configured, you just need to install it with theese command: `npm install --save node-sass sass-loader`.
