@@ -24,8 +24,7 @@ body {
   top: 90%;
 }
 .mountains__image {
-  background-image: url('~assets/img/special/mountains.jpg');
-  background-size: cover;
+  background-color: #666666;
   min-width: 100vw;
   min-height: 100vh;
 }

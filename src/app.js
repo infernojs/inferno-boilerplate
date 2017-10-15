@@ -1,15 +1,13 @@
 /* 
  * Main app container 
  */
-import Component from 'inferno-component'
-import jss from 'jss'
-import preset from 'jss-preset-default'
+import { Provider } from 'inferno-fela'
+import { createRenderer } from 'fela'
 
-// Setup JSS to support nesting, vendor-prefixing etc (need to be done just one time):
-jss.setup(preset())
+const renderer = createRenderer()
 
-export default class App extends Component {
-  render ({ children }) {
-    return <span>{ children }</span>
-  }
-}
+export default ({ children }) => (
+	<Provider renderer={ renderer }>
+		<span>{ children }</span>
+	</Provider>
+)

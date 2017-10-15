@@ -10,9 +10,7 @@ export default class Index extends Component {
       showVersion: false
     }
   }
-  toggleVersion (that) {
-    that.setState({ showVersion: !that.state.showVersion })
-  }
+  
   render() {
     return (
       <section>
@@ -29,5 +27,9 @@ export default class Index extends Component {
         <Link className="contributors-link" to="/special">Another layout</Link>
       </section>
     )
+  }
+
+  toggleVersion (that) {
+    that.setState({ showVersion: !that.state.showVersion })
   }
 }

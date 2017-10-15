@@ -76,10 +76,12 @@ a:visited {
     float: right;
   }
   &__btn {
-    margin: 2ex 2ex 2ex 0;
+    margin: 2ex 2ex 1ex 0;
   }
   &__txt {
+    display: inline-block;
     vertical-align: middle;
+    margin-bottom: 2ex;
   }
 }
 

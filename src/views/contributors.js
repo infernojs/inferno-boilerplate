@@ -5,30 +5,25 @@ import Contributor from '~components/contributor.js'
 
 const CONTRIBUTORS = [
   {
-    name: 'KFlash',
-    commits: '1,229',
-    place: 1
-  },
-  {
     name: 'trueadm',
     commits: '1,058',
-    place: 2
+    place: 1
   },
   {
     name: 'Havunen',
     commits: '663',
-    place: 3
+    place: 2
   },
   {
     name: 'LukeSheard',
     commits: '174',
-    place: 4
+    place: 3
   },
   {
     name: 'nightwolfz',
     commits: '115',
-    place: 5
-  },
+    place: 4
+  }
 ]
 
 export default class Contributors extends Component {
@@ -40,9 +35,7 @@ export default class Contributors extends Component {
       colorPlaces: false
     }
   }
-  colorPlaces () {
-    this.setState({ colorPlaces: !this.state.colorPlaces })
-  }
+
   render () {
     const contributorsTemplate = this.state.contributors.map(cont => {
       return <Contributor data={ cont } colorPlaces={ this.state.colorPlaces }/>
@@ -57,5 +50,9 @@ export default class Contributors extends Component {
         <Link to="/">Get back</Link>
       </section>
     )
+  }
+  
+  colorPlaces () {
+    this.setState({ colorPlaces: !this.state.colorPlaces })
   }
 }

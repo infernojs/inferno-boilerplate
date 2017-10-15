@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --host 0.0.0.0",
     "dev": "npm run start",
-    "build": "rm -rf ./public && cross-env NODE_ENV=\"production\" webpack",
+    "build": "rm -rf ./public && cross-env NODE_ENV=\"production\" webpack -p",
     "lint": "eslint src"
   },
   "repository": {
@@ -32,7 +32,7 @@
     "autoprefixer": "^7.1.1",
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.1",
-    "babel-loader": "^7.0.0",
+    "babel-loader": "^6.4.1",
     "babel-plugin-inferno": "^3.2.0",
     "babel-plugin-syntax-jsx": "^6.18.0",
     "babel-plugin-syntax-object-rest-spread": "^6.13.0",
@@ -66,14 +66,13 @@
     "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
+    "fela": "^6.0.2",
     "history": "^4.6.1",
     "inferno": "^3.5.2",
     "inferno-compat": "^3.5.2",
     "inferno-component": "^3.5.2",
     "inferno-create-class": "^3.5.2",
-    "inferno-create-element": "^3.5.2",
-    "inferno-router": "^3.5.2",
-    "jss": "^7.1.7",
-    "jss-preset-default": "^2.0.0"
+    "inferno-fela": "^6.0.2",
+    "inferno-router": "^3.5.2"
   }
 }

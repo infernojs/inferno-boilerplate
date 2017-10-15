@@ -3,8 +3,8 @@ module.exports = (ctx) => ({
   plugins: {
     "autoprefixer": {
       "browsers": [
-        "last 3 version",
-        "ie >= 10"
+        "last 2 version",
+        "ie >= 11"
       ]
     },
     "postcss-nested": {}
