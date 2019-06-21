@@ -1,6 +1,7 @@
 const webpack = require('webpack');
 
 module.exports = {
+	mode: 'development',
 	entry: './src/index.js',
 	output: {
         path: __dirname + '/public',
@@ -8,7 +9,7 @@ module.exports = {
 		publicPath: 'http://localhost:8080/'
 	},
 	module: {
-		loaders: [{
+		rules: [{
 			test: /\.js$/,
 			loader: 'babel-loader'
 		}]
