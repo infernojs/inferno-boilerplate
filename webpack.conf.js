@@ -15,18 +15,8 @@ module.exports = {
 		}]
 	},
 	devServer: {
-		contentBase: './',
 		port: 8080,
-		noInfo: false,
-		hot: true,
-		inline: true,
-		proxy: {
-			'/': {
-				bypass: function (req, res, proxyOptions) {
-					return '/public/index.html';
-				}
-			}
-		}
+		hot: true
 	},
 	plugins: [
 		new webpack.HotModuleReplacementPlugin()
