@@ -25,25 +25,25 @@
   },
   "homepage": "https://github.com/trueadm/inferno-boilerplate#readme",
   "devDependencies": {
-    "@babel/core": "^7.18.10",
-    "@babel/plugin-syntax-jsx": "^7.18.6",
-    "@babel/preset-env": "^7.18.10",
+    "@babel/core": "^7.23.6",
+    "@babel/plugin-syntax-jsx": "^7.23.3",
+    "@babel/preset-env": "^7.23.6",
     "babel-eslint": "^10.0.2",
-    "babel-loader": "^8.2.5",
-    "babel-plugin-inferno": "^6.5.0",
-    "eslint": "^8.22.0",
-    "eslint-plugin-inferno": "^7.30.1",
-    "glob": "^8.0.3",
+    "babel-loader": "^9.1.3",
+    "babel-plugin-inferno": "^6.7.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-inferno": "^7.33.3",
+    "glob": "^10.3.10",
     "inferno-devtools": "^7",
-    "url": "^0.11.0",
-    "webpack": "5.74.0",
-    "webpack-dev-server": "4.10.0"
+    "url": "^0.11.3",
+    "webpack": "5.89.0",
+    "webpack-dev-server": "4.15.1"
   },
   "dependencies": {
     "history": "^5.3.0",
     "inferno": "^8",
     "inferno-create-element": "^8",
     "inferno-router": "^8",
-    "webpack-cli": "^4.10.0"
+    "webpack-cli": "^5.1.4"
   }
 }
