@@ -36,7 +36,7 @@
     "glob": "^10.3.10",
     "inferno-devtools": "^7",
     "url": "^0.11.3",
-    "webpack": "5.89.0",
+    "webpack": "5.94.0",
     "webpack-dev-server": "4.15.1"
   },
   "dependencies": {
