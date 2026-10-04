@@ -25,25 +25,26 @@
   },
   "homepage": "https://github.com/trueadm/inferno-boilerplate#readme",
   "devDependencies": {
-    "@babel/core": "^7.27.4",
-    "@babel/plugin-syntax-jsx": "^7.27.1",
-    "@babel/preset-env": "^7.27.2",
+    "@babel/core": "^8.0.6",
+    "@babel/plugin-syntax-jsx": "^8.0.1",
+    "@babel/preset-env": "^8.0.6",
     "babel-eslint": "^10.1.0",
-    "babel-loader": "^10.0.0",
-    "babel-plugin-inferno": "^6.8.3",
-    "eslint": "^9.28.0",
-    "eslint-plugin-inferno": "^7.37.7",
-    "glob": "^11.0.2",
+    "babel-loader": "^10.1.1",
+    "babel-plugin-inferno": "^10.0.0",
+    "eslint": "^10.12.0",
+    "eslint-plugin-inferno": "^7.42.0",
+    "glob": "^13.0.6",
+    "globals": "^17.13.0",
     "inferno-devtools": "^7",
     "url": "^0.11.4",
-    "webpack": "5.99.9",
-    "webpack-dev-server": "5.2.2"
+    "webpack": "5.111.1",
+    "webpack-dev-server": "6.0.0"
   },
   "dependencies": {
     "history": "^5.3.0",
-    "inferno": "^9.0.3",
-    "inferno-create-element": "^9.0.3",
-    "inferno-router": "^9.0.3",
-    "webpack-cli": "^6.0.1"
+    "inferno": "^10.0.0",
+    "inferno-create-element": "^10.0.0",
+    "inferno-router": "^10.0.0",
+    "webpack-cli": "^7.2.3"
   }
 }

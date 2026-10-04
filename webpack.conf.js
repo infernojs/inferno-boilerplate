@@ -1,5 +1,3 @@
-const webpack = require('webpack');
-
 module.exports = {
 	mode: 'development',
 	entry: './src/index.js',
@@ -17,8 +15,5 @@ module.exports = {
 	devServer: {
 		port: 8080,
 		hot: true
-	},
-	plugins: [
-		new webpack.HotModuleReplacementPlugin()
-	]
+	}
 };
